@@ -1,0 +1,30 @@
+language: go
+
+sudo: false
+
+os:
+    - linux
+    - osx
+
+go:
+    - 1.9.x
+    - 1.10.x
+    - 1.11.x
+    - tip
+
+matrix:
+    fast_finish: true
+    allow_failures:
+        - go: tip
+
+before_script: make vendor
+
+script: make test
+
+deploy:
+    provider: script
+    skip_cleanup: true
+    script: make release
+    on:
+        tags: true
+        condition: $TRAVIS_OS_NAME = linux && $TRAVIS_GO_VERSION =~ ^1\.11(\.(x|[0-9]+))?$
