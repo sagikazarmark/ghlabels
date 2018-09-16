@@ -1,0 +1,68 @@
+[
+    {
+        "name": "resolution/duplicate",
+        "color": "CCCCCC",
+        "aliases": [
+            "duplicate",
+            "duplicates"
+        ]
+    },
+    {
+        "name": "resolution/invalid",
+        "color": "E6E6E6",
+        "aliases": [
+            "invalid"
+        ]
+    },
+    {
+        "name": "resolution/rejected",
+        "color": "B6B6B6",
+        "aliases": [
+            "rejected"
+        ]
+    },
+    {
+        "name": "resolution/wontfix",
+        "color": "FFFFFF",
+        "aliases": [
+            "wontfix",
+            "won't fix"
+        ]
+    },
+    {
+        "name": "kind/bug",
+        "color": "FC2929",
+        "aliases": [
+            "bug"
+        ]
+    },
+    {
+        "name": "kind/enhancement",
+        "color": "84B6EB",
+        "aliases": [
+            "enhancement"
+        ]
+    },
+    {
+        "name": "kind/question",
+        "color": "CC317C",
+        "aliases": [
+            "question"
+        ]
+    },
+    {
+        "name": "kind/support",
+        "color": "41B2DB",
+        "aliases": [
+            "support"
+        ]
+    },
+    {
+        "name": "kind/tech-debt",
+        "color": "D93F0B",
+        "aliases": [
+            "techdebt",
+            "tech-debt"
+        ]
+    }
+]
