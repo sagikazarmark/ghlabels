@@ -10,4 +10,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [Unreleased]
 
 
-[Unreleased]: https://github.com/sagikazarmark/ghlabels/compare/HEAD...HEAD
+## 0.0.1 - 2018-09-16
+
+
+[Unreleased]: https://github.com/sagikazarmark/ghlabels/compare/v0.0.1...HEAD
