@@ -2,6 +2,7 @@
     {
         "name": "resolution/duplicate",
         "color": "CCCCCC",
+        "description": "This issue or pull request already exists",
         "aliases": [
             "duplicate",
             "duplicates"
@@ -10,6 +11,7 @@
     {
         "name": "resolution/invalid",
         "color": "E6E6E6",
+        "description": "This doesn't seem right",
         "aliases": [
             "invalid"
         ]
@@ -17,6 +19,7 @@
     {
         "name": "resolution/rejected",
         "color": "B6B6B6",
+        "description": "Thanks, but this is not going to land in the project",
         "aliases": [
             "rejected"
         ]
@@ -24,6 +27,7 @@
     {
         "name": "resolution/wontfix",
         "color": "FFFFFF",
+        "description": "This will not be worked on",
         "aliases": [
             "wontfix",
             "won't fix"
@@ -32,6 +36,7 @@
     {
         "name": "kind/bug",
         "color": "FC2929",
+        "description": "Something isn't working",
         "aliases": [
             "bug"
         ]
@@ -39,6 +44,7 @@
     {
         "name": "kind/enhancement",
         "color": "84B6EB",
+        "description": "New feature or request",
         "aliases": [
             "enhancement"
         ]
@@ -46,6 +52,7 @@
     {
         "name": "kind/question",
         "color": "CC317C",
+        "description": "Further information is requested",
         "aliases": [
             "question"
         ]
@@ -53,6 +60,7 @@
     {
         "name": "kind/support",
         "color": "41B2DB",
+        "description": "Need some help with an issue",
         "aliases": [
             "support"
         ]
@@ -60,6 +68,7 @@
     {
         "name": "kind/tech-debt",
         "color": "D93F0B",
+        "description": "Tech debts ain't good",
         "aliases": [
             "techdebt",
             "tech-debt"
